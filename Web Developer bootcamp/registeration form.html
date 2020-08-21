@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Solutions</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<label for="firstname">First Name:</label>
+		<input id="firstname" type="text" name="firstname" placeholder="First Name" required>
+		<label for="lastname">Last Name:</label>
+		<input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
+		<br>
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="male">
+		<label for="femal">Female</label>
+		<input id="femal" type="radio" name="female">
+		<label for="other">Other</label>
+		<input id="other" type="radio" name="other">
+		<br>
+		<label for="email">Emal:</label>
+		<input id="email" type="email" name="email" placeholder="your email" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password" name="password" placeholder="password" required pattern=".{8,12}" title="Enter a password contains 8 to 12 charactors">
+		<br>
+		<label for="birthday">Birthday:</label>
+			<select name="montg">
+				<option>Month</option>
+				<option>January</option>
+				<option>Febburary</option>
+				<option>March</option>
+				<option>April</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>August</option>
+			</select>
+			<select name="day">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+			</select>
+			<select name="year">
+				<option>Year</option>
+				<option>2020</option>
+				<option>2019</option>
+				<option>2018</option>
+				<option>2017</option>
+				<option>2016</option>
+				<option>2015</option>
+				<option>2014</option>
+				<option>2013</option>
+			</select>
+			<br>
+			<span>I agree to the terms and conditions</span>
+			<input type="radio" name="agree" required="">
+			<br>
+			<button>Submit</button>
+
+	</form>
+
+</body>
+</html>
